@@ -46,6 +46,10 @@ poetry install
 Run the benchmark:
 
 ```bash
+Providing apikey:
+ * vi experiments/configurations/<config-name>
+ * input apikey in `connection_params` as `"api_key": "oM4hdVNaGNpoG2j#SW0maPhdb2APcb5W"`
+
 Usage: run.py [OPTIONS]
 
   Example: python3 -m run --engines *-m-16-* --datasets glove-*
